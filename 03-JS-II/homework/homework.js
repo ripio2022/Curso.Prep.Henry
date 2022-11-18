@@ -152,6 +152,21 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
+
+  var divpor3 = numero % 3;
+  var divpor5 = numero % 5;
+   if (divpor3 == 0) {
+            if (divpor5 == 0) {
+              return("fizzbuzz");
+                } else {
+                  return("fizz");
+              }
+  } else {
+    if (divpor5 == 0) {
+      return("buzz")
+    }
+   
+  }
 }
 
 function operadoresLogicos(num1, num2, num3) {
