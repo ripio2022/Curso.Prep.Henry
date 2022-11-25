@@ -1,8 +1,12 @@
 // No cambies los nombres de las funciones.
 
-function devolverPrimerElemento(array) {
+function devolverPrimerElemento(array,4) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+
+array = ["PRIMER" ,"2" ,"3" ,"4"];
+console.log(array[0]);
+
 }
 
 
